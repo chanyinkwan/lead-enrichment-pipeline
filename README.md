@@ -3,8 +3,7 @@
 > Automated lead scraping, enrichment, and AI-powered qualification scoring -- turning raw LinkedIn profiles into prioritised outreach lists.
 
 ## Client
-
-**Spark Growth Agency** (anonymised) -- A B2B growth marketing agency helping SaaS startups build outbound sales pipelines.
+ (anonymised) -- A B2B growth marketing agency helping SaaS startups build outbound sales pipelines.
 
 | Detail | Value |
 |--------|-------|
@@ -141,12 +140,12 @@ Full sample: [`sample-data/raw_leads_input.csv`](sample-data/raw_leads_input.csv
 ### After Enrichment + AI Scoring
 
 **Lead 1: Sarah Chen** -- VP of Engineering at DataFlow Systems (Series B, 120 employees)
-- **Score: 9/10** | Email: `sarah.chen@dataflowsystems.com` (verified)
+- **Score: 9/10** | Email: `sarah.cxxx@dataflowsystems.com` (verified)
 - **AI Reasoning:** Perfect ICP match -- VP-level engineering leader at a Series B SaaS company. Active hiring signals suggest growth phase and strong buying intent.
 - **Opener:** "Hi Sarah -- saw DataFlow is scaling the engineering team. When teams grow past 100, infrastructure decisions get harder to reverse..."
 
 **Lead 2: James Morrison** -- Technical Consultant at Accenture
-- **Score: 3/10** | Email: `james.morrison@accenture.com` (verified)
+- **Score: 3/10** | Email: `james.mxxx@accenture.com` (verified)
 - **AI Reasoning:** Consultant at a large enterprise -- not a buyer. Advisory role means no purchasing authority. Company size (500K) well outside target range.
 - **Opener:** N/A -- below score threshold
 
@@ -164,7 +163,7 @@ When a lead scores 8+, the pipeline sends a Slack alert:
 ```
 :fire: Hot Lead Alert
 
-Sarah Chen -- VP of Engineering at DataFlow Systems
+Sarah Cxxx -- VP of Engineering at DataFlow Systems
 Score: 9/10 | Email verified
 
 AI Reasoning: Perfect ICP match. VP-level engineering leader at a
